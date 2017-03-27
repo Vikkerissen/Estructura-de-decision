@@ -1,3 +1,6 @@
+/*8-) Confeccionar un programa que permita ingresar un carácter alfanumérico y determine e informe si lo ingresado
+corresponde a una vocal, con el mensaje 'VOCAL'.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
