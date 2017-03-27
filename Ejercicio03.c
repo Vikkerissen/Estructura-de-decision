@@ -1,3 +1,5 @@
+/*3-) Ingresar el valor de la hora y las horas trabajadas. 
+Calcular su sueldo si se sabe que recibe un premio de $500 si trabajo más de 50 horas y si trabajo más de 150 horas $ 1000 adicionales.*/
 #include <stdio.h>
 #include <stdlib.h>
 
