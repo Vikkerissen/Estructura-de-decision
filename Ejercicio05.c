@@ -1,3 +1,4 @@
+//5-) Decir si un nro. N es divisible por M.
 #include <stdio.h>
 #include <stdlib.h>
 
