@@ -14,7 +14,7 @@ printf("\nIngrese un numero de catalogo: ");
 scanf("%d", &cat);
 
 if(cat<1000||cat>90000){
-    printf("\El articulo no corresponde al catalogo");
+    printf("\nEl articulo no corresponde al catalogo");
 }
 
 if(cat>=1000&&cat<=90000){
