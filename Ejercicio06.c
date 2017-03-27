@@ -1,3 +1,8 @@
+/*6-) Ingresar 3 valores reales y:  
+a] Si los dos primeros son mayores al tercero informar “ MAYORES AL TERCERO “.  
+b] Si los tres son iguales informar “TRES IGUALES”  
+c] si alguno de los dos primeros es menor al tercero informar “ALGUNO ES MENOR” */
+
 #include <stdio.h>
 #include <stdlib.h>
 
