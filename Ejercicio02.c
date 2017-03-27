@@ -1,3 +1,4 @@
+//2-) Dados tres nros. Determinar e informar con un mensaje si el primer nro. ingresado es menor que los otros dos.
 #include <stdio.h>
 #include <stdlib.h>
 
