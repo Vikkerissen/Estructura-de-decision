@@ -16,8 +16,8 @@ scanf("%d", &c);
 
 printf("\nIngrese el valor D: ");
 scanf("%d", &d);
-
-if(a<b&&a<c&&a<d){
+//El enunciado decía que "determine el menor valor y su número de orden." No entendí bien la forma de expresarlo, asi que lo puse así.
+if(a<b&&a<c&&a<d){ 
     printf("\nEl menor es: %d", a);
     printf("\n\nSe encuentra en primera posicion");
 }
