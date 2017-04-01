@@ -26,7 +26,8 @@ else if(cant==50){
     printf("\nEl importe a pagar es de: $%d", caja50);
 }
 
-if(cant>=100&&cant<=500){ //Para hacer el descuento, tomar valores de 50 en 50.
+if(cant>=100&&cant<=500){ /*Para hacer el descuento, tomar valores de 50 en 50. 100, 150, 200, 250 unidades, 
+                         por ejemplo para dividir en cajas de 50. Mas que nada es para redondear la compra*/
     precio = (cant/50)*caja50;
     desc = precio*0.1;
     total = precio-desc;
