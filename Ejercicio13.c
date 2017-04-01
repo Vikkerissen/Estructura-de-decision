@@ -1,3 +1,15 @@
+/*13-) Un negocio vende distintos art铆culos identificados por un c贸digo, seg煤n se muestra:
+
+.c贸digo 1; 10 ; 100 : l0 pesos la unidad  
+.c贸digo 2; 22; 222 : 7 pesos la unidad. La caja de 10 unidades vale 65 pesos.  
+.c贸digo 3; 33 : 3 pesos la unidad. Si la compra es por m谩s de 10 unidades se hace un descuento del 10% sobre el total de la compra.  
+.c贸digo 4 ;44 : 1 peso la unidad.   
+
+Confeccionar un programa que ingrese como dato el c贸digo de un art铆culo y la cantidad a comprar y se informe el importe de la compra,
+con las siguientes leyendas :   
+
+ART脥CULO xxxxx CANTIDAD xxxx IMPORTE A PAGAR $ xxxx.xx  */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -12,13 +24,13 @@ scanf("%d", &art);
 printf("\nIngrese la cantidad a comprar: ");
 scanf("%d", &cant);
 
-if(art==10||art==100){ //c骴igo 1
+if(art==10||art==100){ //c贸digo 1
     precio = 10;
     total = cant*precio;
 
     printf("\nARTICULO: %d, CANTIDAD: %d, IMPORTE A PAGAR: $%.2f", art, cant, total);
 }
-else if(art==22||art==222){ //c骴igo 2
+else if(art==22||art==222){ //c贸digo 2
      if(cant==10){
         precio = 65;
         total = cant*precio;
@@ -30,7 +42,7 @@ else if(art==22||art==222){ //c骴igo 2
         printf("\nARTICULO: %d, CANTIDAD: %d, IMPORTE A PAGAR: $%.2f", art, cant, total);
      }
 }
-else if(art==33){ //c骴igo 3 -Incluye el descuento del 10%
+else if(art==33){ //c贸digo 3 -Incluye el descuento del 10%
     if(cant>10){
         precio = 3;
         imp = cant*precio;
@@ -45,7 +57,7 @@ else if(art==33){ //c骴igo 3 -Incluye el descuento del 10%
         printf("\nARTICULO: %d, CANTIDAD: %d, IMPORTE A PAGAR: $%.2f", art, cant, total);
     }
 }
-else if(art==44){ //c骴igo 4
+else if(art==44){ //c贸digo 4
     precio = 1;
     total = cant*precio;
     printf("\nARTICULO: %d, CANTIDAD: %d, IMPORTE A PAGAR: $%.2f", art, cant, total);
