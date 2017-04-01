@@ -1,3 +1,7 @@
+/*11-) Confeccionar un programa que solicite e ingrese 3 valores reales positivos, mayores que cero y :  
+a) calcule e informe el promedio de los 3 valores ingresados.  
+b) determine e informe si forman o no triángulo. ( suma de c/ 2 de sus lados > al tercero )*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
