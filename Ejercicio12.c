@@ -1,3 +1,11 @@
+/*12-) Un negocio de artículos de computación vende CD según la siguiente escala de precios :
+- sueltos, entre 1 y 9 a 1 $ c/u  
+- la caja de 10 cuesta 8 $  
+- la caja de 50 cuesta 35 $  
+- si la compra excede las 100 unidades se efectúa un descuento del 10%  
+NOTA : se aceptan compras entre 1 y 500 CD.  
+Se pide que se ingrese una cantidad de CD que se quiere comprar y calcule e informe el importe a pagar.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
