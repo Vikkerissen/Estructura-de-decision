@@ -1,3 +1,4 @@
+//4-) Se ingresan 3 nros. Naturales. Informarlos en orden creciente.
 #include <stdio.h>
 #include <stdlib.h>
 
