@@ -11,7 +11,7 @@ Se debe emitir un ticket para cada uno, con el número de la historia, el códig
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
+#include <ctype.h>  //Podría mejorarse con toupper(); para pasar a mayúsculas la letra ingresada. 
 
 int main(){
 
