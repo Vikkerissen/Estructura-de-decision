@@ -31,24 +31,24 @@ scanf("%d", &num);
 
 if(cod=='A'){
     import = 20;
-    printf("\nNUMERO DE HISTORIA: %d, CODIGO: %c, IMPORTE A PAGAR: %d", num, cod, import);
+    printf("\nNUMERO DE HISTORIA: %d, CODIGO: %c, IMPORTE A PAGAR: $%d", num, cod, import);
 
 }
 else if(cod=='D'){
     import = 40;
-    printf("\nNUMERO DE HISTORIA: %d, CODIGO: %c, IMPORTE A PAGAR: %d", num, cod, import);
+    printf("\nNUMERO DE HISTORIA: %d, CODIGO: %c, IMPORTE A PAGAR: $%d", num, cod, import);
 }
 else if(cod=='F'){
     import = 60;
-    printf("\nNUMERO DE HISTORIA: %d, CODIGO: %c, IMPORTE A PAGAR: %d", num, cod, import);
+    printf("\nNUMERO DE HISTORIA: %d, CODIGO: %c, IMPORTE A PAGAR: $%d", num, cod, import);
 }
 else if(cod=='M'){
     import = 150;
-    printf("\nNUMERO DE HISTORIA: %d, CODIGO: %c, IMPORTE A PAGAR: %d", num, cod, import);
+    printf("\nNUMERO DE HISTORIA: %d, CODIGO: %c, IMPORTE A PAGAR: $%d", num, cod, import);
 }
 else if(cod=='T'){
     import = 150;
-    printf("\nNUMERO DE HISTORIA: %d, CODIGO: %c, IMPORTE A PAGAR: %d", num, cod, import);
+    printf("\nNUMERO DE HISTORIA: %d, CODIGO: %c, IMPORTE A PAGAR: $%d", num, cod, import);
 }
 
 getch();
